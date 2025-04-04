@@ -40,10 +40,10 @@ export const Overview = () => {
         </p>
         <p>
           Welcome to the Magic Teams chatbot! Book your flight tickets seamlessly with our user-friendly assistant. 
-          Powered by Google Gemini AI, we're here to help you find and book the perfect flights for your journey.
+          Powered by Google Gemini AI, we&apos;re here to help you find and book the perfect flights for your journey.
         </p>
         <p>
-          Simply tell us your travel plans, and we'll take care of the rest. You can ask about flight options, 
+          Simply tell us your travel plans, and we&apos;ll take care of the rest. You can ask about flight options, 
           schedules, pricing, and more.
         </p>
       </div>
