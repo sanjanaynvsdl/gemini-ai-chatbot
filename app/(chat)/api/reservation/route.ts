@@ -61,8 +61,8 @@ export async function PATCH(request: Request) {
 
     const { magicWord } = await request.json();
 
-    if (magicWord.toLowerCase() !== "vercel") {
-      return new Response("Invalid magic word!", { status: 400 });
+    if (magicWord.toLowerCase() !== "magicteams") {
+      return new Response("Invalid word!", { status: 400 });
     }
 
     const updatedReservation = await updateReservation({

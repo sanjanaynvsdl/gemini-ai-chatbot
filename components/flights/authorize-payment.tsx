@@ -71,15 +71,15 @@ export function AuthorizePayment({
   ) : (
     <div className="bg-muted p-4 rounded-lg flex flex-col gap-2">
       <div className="text font-medium">
-        Use your saved information for this transaction
+       Integration of payment gate way is under progress
       </div>
       <div className="text-muted-foreground text-sm sm:text-base">
-        Enter the magic word to authorize payment. Hint: It rhymes with bercel.
+        Please enter "magicteams" word to verify your payment
       </div>
 
       <Input
         type="text"
-        placeholder="Enter magic word..."
+        placeholder="Enter word..."
         className="dark:bg-zinc-700 text-base border-none mt-2"
         onChange={(event) => setInput(event.currentTarget.value)}
         onKeyDown={async (event) => {
