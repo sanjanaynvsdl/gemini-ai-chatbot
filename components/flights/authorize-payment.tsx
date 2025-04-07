@@ -74,7 +74,7 @@ export function AuthorizePayment({
        Integration of payment gate way is under progress
       </div>
       <div className="text-muted-foreground text-sm sm:text-base">
-        Please enter "magicteams" word to verify your payment
+        Please enter &quot;magicteams&quot;  word to verify your payment
       </div>
 
       <Input
